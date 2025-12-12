@@ -35,7 +35,10 @@
 
 /* ##########################################HERO###################### */
 .hero {
-    background-image: url(../images/background-office.jpg);
+    background-image: image-set(
+        url("../images/background-office.jpg") 1x,
+        url("../images/background-office@2x.jpg") 2x
+    );
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -925,7 +928,10 @@ address p:focus {
     .modal-overlay {
         
         margin-bottom: auto;
-       
+        margin-top: 80px;
+    }
+    .hero {
+        height: 600px;
     }
     .menu {
         display: none;
