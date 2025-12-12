@@ -406,7 +406,7 @@ h2 {
     background-color: white;
     padding-top: 72px;
     padding-bottom: 24px;
-
+    margin-bottom: auto;
     padding-left: 16px;
     padding-right: 16px;
     display: flex;
